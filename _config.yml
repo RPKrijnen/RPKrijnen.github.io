@@ -1,5 +1,5 @@
-theme: jekyll-theme-cayman
-title: Rogier Krijnen
+# theme: jekyll-theme-cayman
+title: "Rogier Krijnen"
 description: Blog of Rogier Krijnen MSc.
 markdown:    kramdown
 highlighter: rouge
