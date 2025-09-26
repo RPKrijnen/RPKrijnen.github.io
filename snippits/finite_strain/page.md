@@ -1,4 +1,4 @@
-#Finite strain
+# Finite strain
 
 Here is some generic info on finite strain theory
 
