@@ -3,10 +3,10 @@
 Here is some generic info on finite strain theory
 
 $$
-    \boldsymbol{F} = \frac{\partial \boldsymbol{x}}{\partial \boldsymbol{X}} 
+    {F} = \frac{\partial {x}}{\partial {X}} 
 $$
 
 $$
-    \Psi = a(I_{1}-3)
+    \Psi = a(I_{1}-3)^2
 $$
 
