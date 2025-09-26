@@ -1,0 +1,17 @@
+theme: jekyll-theme-cayman
+title: Rogier Krijnen
+description: Blog of Rogier Krijnen MSc.
+markdown:    kramdown
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  auto_ids: true
+  footnote_nr: 1
+compress_html:
+  clippings: all
+  blanklines: true
