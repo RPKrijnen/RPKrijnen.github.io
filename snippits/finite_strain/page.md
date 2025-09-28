@@ -16,6 +16,6 @@ Here is an inline equation test: $\boldsymbol{P} = \frac{\partial \Psi}{\partial
 
 Here is another test using the `\begin{equation}` command:
 
-\begin{equation}
+$$\begin{equation}
     I_{1} = tr\left( \boldsymbol{C}\right)
-\end{equation}
+\end{equation}$$
