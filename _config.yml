@@ -3,7 +3,7 @@ title: "Rogier Krijnen"
 description: Blog of Rogier Krijnen MSc.
 markdown:    kramdown
 highlighter: rouge
-mathjax: true
+# mathjax: true
 
 kramdown:
   math_engine: mathjax
