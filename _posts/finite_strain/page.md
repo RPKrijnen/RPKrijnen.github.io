@@ -2,7 +2,7 @@
 layout: post
 title:  "Finite strain page"
 date:   2025-09-28
-categories: None
+categories: Jekyll update
 ---
 # Finite strain
 
