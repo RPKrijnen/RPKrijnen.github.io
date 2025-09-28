@@ -7,16 +7,19 @@
 	  processEscapes: true
 		}
 	});
-</script>
+</script> -->
 
 <script>
   MathJax = {
     tex: {
 	  inlineMath: [['$','$'], ['\\(','\\)'] ],
 	  displayMath: [ ['$$','$$'], ['\\[','\\]'] , ['\begin{equation}','\end{equation}'], ] ],
-    }
+    },
+	svg: {
+		fontCache: 'global',
+	}
   };
-</script> -->
+</script>
 
 
 
@@ -25,7 +28,7 @@
  </script>
  
  
- <script type="text/x-mathjax-config">
+ <!-- <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       extensions: ["tex2jax.js"],
       jax: ["input/TeX", "output/HTML-CSS"],
@@ -36,7 +39,7 @@
       },
       "HTML-CSS": { availableFonts: ["TeX"] }
     });
- </script>
+ </script> -->
 
 
 <!-- Setup Google Analytics -->
