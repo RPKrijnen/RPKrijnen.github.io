@@ -1,3 +1,8 @@
+---
+layout: default
+title: Finite strain page
+mathjax: true
+---
 # Finite strain
 
 Here is some generic info on finite strain theory
