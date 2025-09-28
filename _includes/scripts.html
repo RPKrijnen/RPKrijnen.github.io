@@ -1,5 +1,5 @@
 <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-<script type="text/x-mathjax-config">
+<!-- <script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
 		tex2jax: {
 	  inlineMath: [['$','$'], ['\\(','\\)'] ],
@@ -16,7 +16,7 @@
 	  displayMath: [ ['$$','$$'], ['\\[','\\]'] , ['\begin{equation}','\end{equation}'], ] ],
     }
   };
-</script>
+</script> -->
 
 
 
@@ -24,10 +24,23 @@
  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
  </script>
  
+ 
+ <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+ </script>
 
 
 <!-- Setup Google Analytics -->
-{% include head-custom-google-analytics.html %}
+<!-- {% include head-custom-google-analytics.html %} -->
 
 
 <!-- You can set your favicon here -->
