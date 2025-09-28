@@ -1,8 +1,9 @@
-<!-- ---
-layout: default
-title: Finite strain page
-mathjax: true
---- -->
+---
+layout: post
+title:  "Finite strain page"
+date:   2025-09-28
+categories: None
+---
 # Finite strain
 
 Here is some generic info on finite strain theory
