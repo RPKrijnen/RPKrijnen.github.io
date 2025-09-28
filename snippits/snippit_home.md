@@ -1,3 +1,9 @@
+---
+layout: posts
+title:  "Finite strain page"
+date:   2025-09-28
+categories: Jekyll update
+---
 [Return to Site Home](https://RPKrijnen.github.io/)
 
 ---------------------------------------------------------------------------

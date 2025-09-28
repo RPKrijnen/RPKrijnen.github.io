@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Finite strain page"
 date:   2025-09-28
 categories: Jekyll update
