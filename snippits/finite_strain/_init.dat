@@ -1,0 +1,7 @@
+doc:	./page.md
+source:	./page.md
+title:	Finite strain page
+date:	28/9/25
+desc:	generic description of finite strain
+nav:	TRUE
+tree:	TRUE
