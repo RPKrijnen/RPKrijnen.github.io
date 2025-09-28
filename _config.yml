@@ -3,6 +3,7 @@ title: "Rogier Krijnen"
 description: Blog of Rogier Krijnen MSc.
 markdown:    kramdown
 highlighter: rouge
+mathjax: true
 
 kramdown:
   math_engine: mathjax
@@ -16,16 +17,16 @@ compress_html:
   clippings: all
   blanklines: true
 
-  defaults:
-   # _posts
-   - scope:
-       path: ""
-       type: posts
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       comments: true
-       share: true
-       related: true
-       mathjax: true
+  # defaults:
+  #  # _posts
+  #  - scope:
+  #      path: ""
+  #      type: posts
+  #    values:
+  #      layout: single
+  #      author_profile: true
+  #      read_time: true
+  #      comments: true
+  #      share: true
+  #      related: true
+  #      mathjax: true
