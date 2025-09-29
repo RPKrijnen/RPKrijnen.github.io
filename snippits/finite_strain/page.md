@@ -129,4 +129,29 @@ $$
     K\left(\frac{J^2-1}{2} - ln(J)\right).
 $$
 
+One thing to notice is that, adding these terms directly to strain energy functions as we did before will doubly penalize the change in volume.
+Remember that we multiply material model parameters to invariants which are based on $\boldsymbol{C}$.
+This tensor itself will "increase in value" due to change in volume and so will its invariants.
+Thus, if we want to disentangle the contribution of change in volume in the strain energy function from the other material model parameters we need to do something extra.
 
+It turns out that we need to do an isochoric-deviatoric split.
+All you need to remember is that when such a split is used, we use a bar over the invariant as such $\overline{I}_\star$.
+Furthermore, it is quite easy to calculate these invariants.
+Instead of using the classic deformation gradient you compute it as follows:
+
+$$
+    \overline{\boldsymbol{F}} = \boldsymbol{J}^{-1/3} \boldsymbol{F}
+$$
+
+and then use $\overline{\boldsymbol{F}}$ to calculate $\overline{I}_\star$.
+
+A simple example of a compressible material model would be:
+$$
+    \Psi = \Psi_{iso} + \Psi_{vol} = a(\overline{I}_{1}-3)^2 + K(J-1)^2
+$$
+
+Where,
+
+$$
+    \overline{I}_1 = tr\left( (\boldsymbol{J}^{-1/3} \boldsymbol{F})^T (\boldsymbol{J}^{-1/3} \boldsymbol{F}) \right) = tr\left( \boldsymbol{J}^{-2/3} \boldsymbol{F}^T  \boldsymbol{F} \right)
+$$
