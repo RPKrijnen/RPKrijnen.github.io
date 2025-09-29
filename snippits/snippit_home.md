@@ -1,6 +1,6 @@
 ---
 # layout: posts
-title:  "Finite strain page"
+title:  "Home page snippits"
 date:   2025-09-28
 categories: Jekyll update
 ---

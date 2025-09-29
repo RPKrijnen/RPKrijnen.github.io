@@ -1,10 +1,10 @@
----
+<!-- ---
 # layout: default
 title:  "Finite strain page"
 date:   2025-09-28
 categories: Jekyll update
 theme: jekyll-theme-cayman
----
+--- -->
 # Finite strain
 
 Here is some generic info on finite strain theory
