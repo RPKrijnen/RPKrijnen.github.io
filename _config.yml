@@ -6,13 +6,13 @@ highlighter: rouge
 # mathjax: true
 
 # title: blog@RPKrijnen
-email: r.p.krijnen@tudelft.nl
+# email: r.p.krijnen@tudelft.nl
 # description: >- # this means to ignore newlines until "baseurl:"
 #   blog@RPKrijnen
-baseurl: "/snippits" # the subpath of your site, e.g. /blog
-url: "https://rpkrijnen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rpkrijnen
-github_username:  rpkrijnen
+# baseurl: "/snippits" # the subpath of your site, e.g. /blog
+# url: "https://rpkrijnen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: rpkrijnen
+# github_username:  rpkrijnen
 
 kramdown:
   math_engine: mathjax
