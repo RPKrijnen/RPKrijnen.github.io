@@ -31,7 +31,7 @@ defaults:
       path: "_posts"
     values:
       layout: "posts"
-      theme: jekyll-theme-cayman
+    theme: jekyll-theme-cayman
 
   # defaults:
   #  # _posts
