@@ -1,8 +1,9 @@
 ---
-layout: posts
+layout: default
 title:  "Finite strain page"
 date:   2025-09-28
 categories: Jekyll update
+theme: jekyll-theme-cayman
 ---
 # Finite strain
 
