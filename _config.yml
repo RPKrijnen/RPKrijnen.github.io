@@ -5,10 +5,10 @@ markdown:    kramdown
 highlighter: rouge
 # mathjax: true
 
-title: blog@RPKrijnen
+# title: blog@RPKrijnen
 email: r.p.krijnen@tudelft.nl
-description: >- # this means to ignore newlines until "baseurl:"
-  blog@RPKrijnen
+# description: >- # this means to ignore newlines until "baseurl:"
+#   blog@RPKrijnen
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rpkrijnen
