@@ -26,12 +26,12 @@ compress_html:
   clippings: all
   blanklines: true
 
-defaults:
-  - scope:
-      path: "_posts"
-    values:
-      layout: "default"
-    theme: jekyll-theme-cayman
+# defaults:
+#   - scope:
+#       path: "_posts"
+#     values:
+#       layout: "default"
+#     theme: jekyll-theme-cayman
 
   # defaults:
   #  # _posts
