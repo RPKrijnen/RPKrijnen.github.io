@@ -30,7 +30,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      layout: "posts"
+      layout: "default"
     theme: jekyll-theme-cayman
 
   # defaults:
